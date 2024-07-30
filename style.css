@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    background-image: url(img/pagebackg.jpg);
+    background-size: cover;
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+    justify-content:space-between; 
+    align-items:flex-start; 
+    min-height: 100vh; 
+}
+ /* Me Section */
+.container1{
+    background-image: linear-gradient(to right, #32476cd0 , #6ca6ca , #dde6df);
+    background-size: cover;
+    border-radius: 2rem;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#profile{
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-sm-4{
+    margin: 2rem;
+    padding: 2rem;
+    flex: 1;
+}
+.col-sm-4 h1{
+    color: black;
+    font-weight: bold;
+    text-shadow:4px 3px 5px #dde6df;
+}
+.col-sm-4 p{
+    color: black;
+    font-weight: 550;
+    font-size: 17px;
+}
+.col-sm-4 ul{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 2-px;
+}
+#CM, #CM h1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* PHOTO GALLERTY SECTION */
+
+.container2{
+    margin-top: 2rem;
+    padding: 2rem;
+    background-image: linear-gradient(to right, #32476cd0 , #6ca6ca , #dde6df);
+    background-size: cover;
+    border-radius: 2rem;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.col-sm-7{
+    font-size: 22px;
+    color: black;
+   margin: 3rem;
+   padding: 2rem;
+   
+    }
+.col-sm-3 h1{
+    margin-top: 1rem;
+    font-size: 26px;
+    color: black;
+    font-weight: 549;
+    text-shadow:4px 3px 5px #dde6df;
+}
+#photo{
+    margin: auto;
+    max-height:100%;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#draw{
+    margin: auto;
+    max-height:100%;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: column;
+}
+
