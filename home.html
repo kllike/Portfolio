@@ -13,16 +13,23 @@
     <div class="container-fluid p-0">
         <div class="row g-0">
             <!-- Sidebar -->
-            <div class="col-md-2 sidebar">
-                <div class="logo">LOGO</div>
-                <div class="navigation">
-                    <a href="home.html" class="nav-item active"><span class="nav-dot"></span> Home</a>
-                    <a href="aboutme.html" class="nav-item"><span class="nav-dot"></span> About Me</a>
-                    <a href="projects.html" class="nav-item"><span class="nav-dot"></span> Projects</a>
-                    <a href="contact.html" class="nav-item"><span class="nav-dot"></span> Contact</a>
+            <div class="col-md-2 sidebar d-md-flex flex-md-column">
+                <div class="d-flex justify-content-between align-items-center px-3 py-2 d-md-none">
+                    <div class="logo"><img class="img-fluid" src="media/logo.png" alt=""></div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-            </div>
-            
+                <div class="collapse d-md-block" id="navbarNav">
+                    <div class="logo d-none d-md-block"><img class="img-fluid" src="media/logo.png" alt=""></div>
+                    <div class="navigation">
+                        <a href="home.html" class="nav-item active"><span class="nav-dot"></span> Home</a>
+                        <a href="aboutme.html" class="nav-item"><span class="nav-dot"></span> About Me</a>
+                        <a href="projects.html" class="nav-item"><span class="nav-dot"></span> Projects</a>
+                        <a href="contact.html" class="nav-item"><span class="nav-dot"></span> Contact</a>
+                    </div>
+                </div>
+            </div> 
             <!-- Main Content -->
             <div class="col-md-10 main-content">
                 <div class="content-inner">
