@@ -7,6 +7,8 @@
   --white: #ffffff;
 }
 
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -135,26 +137,18 @@ body {
 }
 
 /* Profile Image */
-.profile-image-container {
+.profile-image {
   position: relative;
   margin-top: 2rem;
-}
-
-.image-timestamp {
-  background-color: var(--medium-blue);
-  color: var(--white);
-  padding: 0.25rem 0.5rem;
-  font-size: 0.75rem;
-  position: absolute;
-  top: -1.5rem;
-  right: 0;
-}
-
-.profile-image {
+  border: 2px solid var(--gold);
   width: 100%;
-  height: 300px;
-  background-color: #e0e0e0;
-  border: 3px solid var(--gold);
+  height: 100%;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Footer */
@@ -234,6 +228,7 @@ body {
 }
 
 .project-title {
+  background-color: var(--gold);
   color: var(--white);
   text-align: center;
   padding: 0.5rem;
@@ -280,55 +275,23 @@ body {
   border: none;
 }
 
-@media (max-width: 767.98px) {
-  .sidebar {
-    min-height: auto;
-    padding: 0;
+.home-actions {
+  margin-top: 2rem;
 }
 
-.d-flex.justify-content-between.align-items-center {
-    padding: 0.5rem 1rem;
+.home-action-btn {
+  background-color: var(--gold);
+  color: var(--white);
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  margin-right: 0.75rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
 }
 
-.logo {
-    margin-bottom: 0;
-    padding: 0;
-}
-
-.logo img {
-    max-width: 50px;
-    height: auto;
-}
-
-.navbar-toggler {
-    border: none;
-    background-color: var(--gold);
-    padding: 0.5rem;
-    border-radius: 0.25rem;
-    margin: 0;
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%281,1,1,0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-collapse {
-    width: 100%;
-    background-color: var(--dark-blue);
-    padding: 0.5rem;
-    border-top: 1px solid var(--gold);
-}
-
-.navigation {
-    margin-top: 0;
-    padding: 0;
-}
-
-.nav-item {
-    padding: 0.5rem 0.75rem;
-    margin: 0.25rem 0;
-}
-}
 
 /* Responsive */
 @media (max-width: 767.98px){
@@ -347,7 +310,7 @@ body {
   }
   
   .logo img {
-      max-width: 50px;
+      max-width: 80px;
       height: auto;
   }
   
@@ -380,3 +343,4 @@ body {
       margin: 0.25rem 0;
   }
 }
+
