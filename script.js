@@ -5,7 +5,7 @@ const projectData = [
       title: "Lorem Project 1",
       languages: ["HTML", "CSS", "JavaScript"],
       description: "This is a short description of project 1. It explains what the project does and its main features.",
-      url: "https://example.com/project1"
+      url: "https://vso24annuk.ita.voco.ee/veebiarendus/cameras/homepage.html"
   },
   {
       id: "project2",
@@ -37,10 +37,10 @@ const projectData = [
   },
   {
       id: "project6",
-      title: "Lorem Project 6",
-      languages: ["PHP", "Laravel", "MySQL"],
+      title: "E-store 'Pagari Koda'",
+      languages: ["Worbress"],
       description: "This is a short description of project 6. It describes the project's goals and implementation details.",
-      url: "https://example.com/project6"
+      url: "https://vso24annuk.ita.voco.ee/wordpress/"
   }
 ];
 
