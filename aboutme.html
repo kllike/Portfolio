@@ -26,10 +26,10 @@
                 <div class="collapse navbar-collapse d-md-block" id="navbarNav">
                     <div class="logo d-none d-md-block"><img class="img-fluid" src="media/logo.png" alt=""></div>
                     <div class="navigation">
-                        <a href="home.html" class="nav-item"><span class="nav-dot"></span> Home</a>
-                        <a href="aboutme.html" class="nav-item active"><span class="nav-dot"></span> About Me</a>
-                        <a href="projects.html" class="nav-item"><span class="nav-dot"></span> Projects</a>
-                        <a href="contact.html" class="nav-item"><span class="nav-dot"></span> Contact</a>
+                        <a href="home.html" class="nav-item "><span ><i class="fa-solid fa-house fa-lg p-2" style="color: #ffffff;"></i></span> Home</a>
+                        <a href="aboutme.html" class="nav-item active"><span><i class="fa-solid fa-user fa-lg p-2" style="color: #ffffff;"></i></span> About Me</a>
+                        <a href="projects.html" class="nav-item"><span><i class="fa-solid fa-folder-open fa-lg p-2" style="color: #ffffff;"></i></span> Projects</a>
+                        <a href="contact.html" class="nav-item"><span><i class="fa-solid fa-address-card fa-lg p-2" style="color: #ffffff;"></i></span> Contact</a>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,8 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque lacus, laoreet eu auctor non, porta ac arcu. Nam gravida ut tortor eu imperdiet. Donec massa dolor, mattis a consequat non, consequat in nibh. Morbi vitae maximus mauris. Donec fermentum ac elit quis dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque lacus, laoreet eu auctor non, porta ac arcu. Nam gravida ut tortor eu imperdiet. Donec massa dolor, mattis at consequat non, consequat in nibh. Morbi vitae maximus mauris. Donec fermentum ac elit quis dignissim.
                     </p>
                     
-                    <div class="cv-button-container">
-                        <a href="#" class="btn btn-custom">CV</a>
+                    <div class="action-buttons ">
+                        <div class="home-action-btn" id="cvButton">CV</div>
                     </div>
                     
                     <div class="skills-section">
@@ -73,11 +73,12 @@
                         </div>
                     </div>
                     
-                    <div class="social-links">
-                        <a href="#" class="social-icon"></a>
-                        <a href="#" class="social-icon"></a>
-                        <a href="#" class="social-icon"></a>
-                        <a href="#" class="social-icon"></a>
+                    <div class="languages gap-3 float-start mb-5">
+                        <i class="fa-brands fa-html5 fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-css fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-js fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-react fa-2xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-wordpress fa-2xl" style="color: #ffffff;"></i>
                     </div>
                 </div>
                 <footer class="footer">
@@ -87,7 +88,19 @@
         </div>
     </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- CV Modal -->
+ <div class="cv-modal" id="cvModal">
+    <div class="cv-modal-content">
+        <div class="cv-modal-header">
+            <span class="cv-close" id="cvClose">&times;</span>
+        </div>
+        <div class="cv-modal-body">
+            <img src="media/CV.jpg" alt="CV" class="cv-image">
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+<script src="https://kit.fontawesome.com/104550f4cc.js" crossorigin="anonymous"></script>
 </body>
 </html>

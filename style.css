@@ -73,6 +73,7 @@ body {
 
 /* Main Content */
 .main-content {
+  padding: 2rem;
   background-color: var(--medium-blue);
   min-height: 100vh;
   position: relative;
@@ -189,19 +190,11 @@ body {
   background-color: var(--light-gray);
 }
 
-.social-links {
+.languages {
   display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  justify-content: start;
 }
 
-.social-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #111;
-  margin: 0 0.5rem;
-}
 
 /* Projects Page */
 .project-grid {
@@ -445,5 +438,53 @@ body {
       justify-content: center;
     justify-content: space-between;
   }
+}
+
+/* CV Modal Styles */
+.cv-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+
+.cv-modal-content {
+  position: relative;
+  background-color: var(--medium-blue);
+  border: 2px solid var(--gold);
+  margin: 5% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cv-modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cv-close {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cv-close:hover {
+  color: var(--gold);
+}
+
+.cv-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
