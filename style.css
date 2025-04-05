@@ -8,7 +8,6 @@
 }
 
 
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -63,14 +62,6 @@ body {
   background-color: var(--gold);
 }
 
-.nav-dot {
-  height: 10px;
-  width: 10px;
-  background-color: var(--white);
-  border-radius: 50%;
-  margin-right: 0.75rem;
-}
-
 /* Main Content */
 .main-content {
   padding: 2rem;
@@ -78,6 +69,7 @@ body {
   min-height: 100vh;
   position: relative;
   padding-bottom: 2rem;
+  
 }
 
 .content-header {
@@ -93,6 +85,7 @@ body {
 
 .content-inner {
   padding: 2rem;
+  margin: 2rem;
 }
 
 .section-title {
@@ -140,7 +133,7 @@ body {
 /* Profile Image */
 .profile-image {
   position: relative;
-  margin-top: 2rem;
+  margin: 2rem;
   border: 2px solid var(--gold);
   width: 100%;
   height: 100%;
@@ -410,10 +403,11 @@ body {
       padding: 0.5rem;
       border-radius: 0.25rem;
       margin: 0;
+      margin-right: 1rem;
   }
   
   .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%281,1,1,0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%281,1,1,0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
   
   .navbar-collapse {
