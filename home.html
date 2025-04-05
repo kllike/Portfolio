@@ -44,9 +44,8 @@
                             <p class="section-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque lacus, laoreet eu auctor non, porta ac arcu. Nam gravida ut tortor eu imperdiet.
                             </p>
-                            
                             <div class="action-buttons">
-                                <a href="#" class="home-action-btn">CV</a>
+                                <div class="home-action-btn" id="cvButton">CV</div>
                             </div>
                         </div>
                         <div class="col-md-5 d-flex justify-content-end">
@@ -64,5 +63,18 @@
             </div>
         </div>
     </div>
+
+ <!-- CV Modal -->
+ <div class="cv-modal" id="cvModal">
+    <div class="cv-modal-content">
+        <div class="cv-modal-header">
+            <span class="cv-close" id="cvClose">&times;</span>
+        </div>
+        <div class="cv-modal-body">
+            <img src="/api/placeholder/800/1000" alt="CV" class="cv-image">
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

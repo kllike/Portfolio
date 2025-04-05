@@ -145,3 +145,30 @@ function closeModal() {
   modal.classList.remove('show-modal');
   document.body.style.overflow = ''; // Restore scrolling
 }
+
+
+
+// CV Modal functionality
+const cvButton = document.getElementById('cvButton');
+const cvModal = document.getElementById('cvModal');
+const cvClose = document.getElementById('cvClose');
+
+// Open CV modal
+cvButton.addEventListener('click', function() {
+    cvModal.style.display = 'block';
+    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+});
+
+// Close CV modal
+cvClose.addEventListener('click', function() {
+    cvModal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // Restore scrolling
+});
+
+// Close modal when clicking outside of it
+window.addEventListener('click', function(event) {
+    if (event.target === cvModal) {
+        cvModal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+});
