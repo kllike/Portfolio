@@ -1,43 +1,29 @@
 // Project data
 const projectData = [
   {
-      id: "project1",
-      title: "Lorem Project 1",
+      id: "Camera info website",
+      title: "Camera info website",
       languages: ["HTML", "CSS", "JavaScript"],
       description: "This is a short description of project 1. It explains what the project does and its main features.",
       url: "https://vso24annuk.ita.voco.ee/veebiarendus/cameras/homepage.html"
   },
   {
-      id: "project2",
-      title: "Lorem Project 2",
-      languages: ["React", "Node.js", "MongoDB"],
+      id: "Portfolio",
+      title: "Portfolio",
+      languages: ["HTML", "CSS", "JavaScript"],
       description: "This is a short description of project 2. It highlights the core functionality and technologies used.",
       url: "https://example.com/project2"
   },
   {
-      id: "project3",
-      title: "Lorem Project 3",
-      languages: ["Python", "Django", "PostgreSQL"],
+      id: "Cyber Omlet",
+      title: "Cyber Omlet",
+      languages: ["HTML", "CSS", "JavaScript"],
       description: "This is a short description of project 3. It explains the purpose and scope of this particular project.",
-      url: "https://example.com/project3"
+      url: "https://nullistyheni.ita.voco.ee/e-valve_consulting/"
   },
   {
-      id: "project4",
-      title: "Lorem Project 4",
-      languages: ["Vue.js", "Express", "Firebase"],
-      description: "This is a short description of project 4. It covers the main functionality and implementation details.",
-      url: "https://example.com/project4"
-  },
-  {
-      id: "project5",
-      title: "Lorem Project 5",
-      languages: ["Angular", "TypeScript", "AWS"],
-      description: "This is a short description of project 5. It outlines the key features and technical aspects.",
-      url: "https://example.com/project5"
-  },
-  {
-      id: "project6",
-      title: "E-store 'Pagari Koda'",
+      id: "Bakery E-commerce shop",
+      title: "Bakery E-commerce shop'",
       languages: ["Worbress"],
       description: "This is a short description of project 6. It describes the project's goals and implementation details.",
       url: "https://vso24annuk.ita.voco.ee/wordpress/"
